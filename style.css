@@ -17,6 +17,36 @@ body {
     display: flex;  
 }
 
+@media screen and (max-width: 720px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .container {
+        width: 277px;
+    }
+}
+
 .new-game {
     position: absolute;
     top: 5%;
@@ -65,6 +95,16 @@ img {
     cursor: pointer;
 }
 
+@media screen and (max-width: 420px) {
+    .roll-dice {
+        top:80%;
+    }
+
+    .hold {
+        top:88%;
+    }
+}
+
 .icons {
     color:rgb(243, 116, 116);
     font-size:1.5rem;
@@ -89,6 +129,18 @@ h3 {
     font-size: 3rem;
     font-weight: normal; 
     margin-right: 5px;
+}
+
+@media screen and (max-width: 620px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    h3 {
+        font-size: 1.5rem;
+    }
 }
 
 .player1, .player2 {

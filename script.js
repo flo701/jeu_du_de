@@ -113,7 +113,7 @@ hold.addEventListener("click", ()=> {
         divPlayer1.style.backgroundColor= "white"
         if(parseInt(finalScore1.innerHTML)>=100){
             player1H3.innerHTML= "WINNER !!!"
-            player1H3.style.color= "red"
+            player1H3.style.color= "green"
         }
         turn=2
     } else if(turn==2) {
@@ -126,7 +126,7 @@ hold.addEventListener("click", ()=> {
         divPlayer1.style.backgroundColor= "rgb(234, 228, 228)"
         if(parseInt(finalScore2.innerHTML)>=100){
             player2H3.innerHTML= "WINNER !!!"
-            player2H3.style.color= "red"
+            player2H3.style.color= "green"
         }
         turn=1
     }

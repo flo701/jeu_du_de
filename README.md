@@ -1,7 +1,6 @@
 # Jeu du dé
 
 - Petit projet réalisé dans le cadre de ma formation "Développeur d'application multimédia" avec Doranco.
-- Plusieurs améliorations sont à venir, notamment le côté responsive, cependant le jeu fonctionne en l'état.
 
 ## Règles du jeu 
 - Le joueur 1 commence, et lance le dé.
