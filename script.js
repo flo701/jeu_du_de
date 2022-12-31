@@ -114,6 +114,7 @@ hold.addEventListener("click", ()=> {
         if(parseInt(finalScore1.innerHTML)>=100){
             player1H3.innerHTML= "WINNER !!!"
             player1H3.style.color= "green"
+            player1H3.style.marginRight= 0
         }
         turn=2
     } else if(turn==2) {
@@ -127,6 +128,7 @@ hold.addEventListener("click", ()=> {
         if(parseInt(finalScore2.innerHTML)>=100){
             player2H3.innerHTML= "WINNER !!!"
             player2H3.style.color= "green"
+            player2H3.style.marginRight= 0
         }
         turn=1
     }

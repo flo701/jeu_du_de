@@ -80,7 +80,7 @@ h1 {
 img {
     position: absolute;
     /* top: 40%; */
-    top: 263px;
+    top: 285px;
     left: 50%;
     transform: translateX(-50%);
     width: 90px;
