@@ -39,7 +39,7 @@ rollDice.addEventListener('click', () => {
         let diceNumber = getNumber(1,6);
         let sum= 0;
 
-        img.setAttribute("src", `./dice-${diceNumber}.png`);
+        img.setAttribute("src", `./images/dice-${diceNumber}.png`);
         sum = parseInt(interScorePlayer1.innerHTML);
         interScorePlayer1.innerHTML=sum+diceNumber
         getNumber(1,6);
@@ -54,7 +54,7 @@ rollDice.addEventListener('click', () => {
         }
 
         if(diceNumber==1) {
-            img.setAttribute("src", "./dice-1.png");
+            img.setAttribute("src", "./images/dice-1.png");
             sum=0;
             interScorePlayer1.innerHTML=sum
             divPlayer1.style.backgroundColor= "white";
@@ -73,7 +73,7 @@ rollDice.addEventListener('click', () => {
         let diceNumber = getNumber(1,6);
         let sum= 0;
 
-        img.setAttribute("src", `./dice-${diceNumber}.png`);
+        img.setAttribute("src", `./images/dice-${diceNumber}.png`);
         sum = parseInt(interScorePlayer2.innerHTML);
         interScorePlayer2.innerHTML=sum+diceNumber
         getNumber(1,6);
@@ -88,7 +88,7 @@ rollDice.addEventListener('click', () => {
         }
 
         if(diceNumber==1) {
-            img.setAttribute("src", "./dice-1.png");
+            img.setAttribute("src", "./images/dice-1.png");
             sum=0;
             interScorePlayer2.innerHTML=sum
             divPlayer2.style.backgroundColor= "white";
