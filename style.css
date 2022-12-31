@@ -5,25 +5,34 @@ body {
     background-color: rgb(234, 122, 122);
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 .container {
     width: 700px;
     height: 500px;
     border: 1px solid black;
-    position: absolute;
+    margin: auto;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     background-color: white;
     display: flex;  
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .container {
         top: 8%;
         left: 50%;
         transform: translate(-50%);
     }
-}
+} */
 
 @media screen and (max-width: 720px) {
     .container {
@@ -57,7 +66,8 @@ body {
 
 .new-game {
     position: absolute;
-    top: 5%;
+    /* top: 17%; */
+    top: 125px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -69,7 +79,8 @@ body {
 
 img {
     position: absolute;
-    top: 35%;
+    /* top: 40%; */
+    top: 263px;
     left: 50%;
     transform: translateX(-50%);
     width: 90px;
@@ -81,7 +92,8 @@ img {
 
 .roll-dice {
     position: absolute;
-    top: 70%;
+    /* top: 65%; */
+    top: 450px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -93,7 +105,8 @@ img {
 
 .hold {
     position: absolute;
-    top: 80%;
+    /* top: 72%; */
+    top: 500px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -103,13 +116,13 @@ img {
     cursor: pointer;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
     .roll-dice {
-        top:80%;
+        top:490px;
     }
 
     .hold {
-        top:88%;
+        top:530px;
     }
 }
 
@@ -174,4 +187,12 @@ h3 {
     height: 60px;
     background-color: rgb(243, 116, 116);
     font-size: 1.2rem;  
+}
+
+.explanations {
+   text-align: center;
+   margin-top: 23px;
+   margin-bottom: 22px;
+   padding-left: 7px;
+   padding-right: 7px;
 }
