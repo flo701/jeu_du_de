@@ -12,7 +12,6 @@ h1 {
     padding-right: 10px;
 }
 
-
 .container {
     width: 700px;
     height: 500px;
@@ -36,31 +35,8 @@ h1 {
 
 @media screen and (max-width: 720px) {
     .container {
-        width: 600px;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .container {
-        width: 500px;
-    }
-}
-
-@media screen and (max-width: 520px) {
-    .container {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .container {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 305px) {
-    .container {
-        width: 277px;
+        /* width: 600px; */
+        width: 85%;
     }
 }
 
@@ -164,6 +140,12 @@ h3 {
     }
 }
 
+@media screen and (max-width: 310px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
 .player1, .player2 {
     width: 50%;
     display: flex;
@@ -193,6 +175,6 @@ h3 {
    text-align: center;
    margin-top: 23px;
    margin-bottom: 22px;
-   padding-left: 7px;
-   padding-right: 7px;
+   padding-left: 10px;
+   padding-right: 10px;
 }
