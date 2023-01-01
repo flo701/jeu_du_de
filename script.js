@@ -46,7 +46,7 @@ rollDice.addEventListener('click', () => {
 
         if(parseInt(finalScore1.innerHTML)>=100){
             player1H3.innerHTML= "WINNER !!!";
-            player1H3.style.color= "red"
+            player1H3.style.color= "green"
         }
 
         if(player2H3.innerHTML== "WINNER !!!"||player1H3.innerHTML== "WINNER !!!") {
