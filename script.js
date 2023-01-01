@@ -80,7 +80,7 @@ rollDice.addEventListener('click', () => {
 
         if(parseInt(finalScore2.innerHTML)>=100){
             player2H3.innerHTML= "WINNER !!!";
-            player2H3.style.color= "red"
+            player2H3.style.color= "green"
         }
 
         if(player2H3.innerHTML== "WINNER !!!"||player1H3.innerHTML== "WINNER !!!") {
@@ -142,6 +142,8 @@ function clearGame() {
     img.style.display= "none";
     player1H3.innerHTML= "PLAYER 1"
     player2H3.innerHTML= "PLAYER 2"
+    player1H3.style.color= "black"
+    player2H3.style.color= "black"
     turn=1
     divPlayer2.style.backgroundColor= "white"
     divPlayer1.style.backgroundColor= "rgb(234, 228, 228)"
